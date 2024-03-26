@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: PlexTV
+name: RuntimeTV
 
 # Controls when the action will run. 
 on:
@@ -39,8 +39,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x plex.sh
-          ./plex.sh
+          chmod +x runtime.sh
+          ./runtime.sh
 
       - name: git pull
         run: |
