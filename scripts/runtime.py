@@ -1,9 +1,9 @@
 import requests
 country = "mx"
-m3u = f"https://i.mjh.nz/Plex/{country}.m3u8"
-xml = f"https://i.mjh.nz/Plex/{country}.xml"
-output_m3u = "plex.m3u"
-output_xml = "plex.xml"
+m3u = f"https://i.mjh.nz/Runtime/{country}.m3u8"
+xml = f"https://i.mjh.nz/Runtime/{country}.xml"
+output_m3u = "Runtime.m3u"
+output_xml = "Runtime.xml"
 
 try:
     response = requests.get(m3u)
