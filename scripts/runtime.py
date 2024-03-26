@@ -1,7 +1,7 @@
 import requests
 country = "mx"
-m3u = f"https://i.mjh.nz/nzau/{country}.m3u8"
-xml = f"https://i.mjh.nz/nzau/{country}.xml"
+m3u = f"https://i.mjh.nz/runtime/{country}.m3u8"
+xml = f"https://i.mjh.nz/runtime/{country}.xml"
 output_m3u = "nzau.m3u"
 output_xml = "nzau.xml"
 
