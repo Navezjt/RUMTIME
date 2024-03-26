@@ -1,9 +1,9 @@
 import requests
 country = "mx"
 m3u = f"https://i.mjh.nz/nzau/{country}.m3u8"
-xml = f"https://i.mjh.nz/Runtime/{country}.xml"
-output_m3u = "Runtime.m3u"
-output_xml = "Runtime.xml"
+xml = f"https://i.mjh.nz/nzau/{country}.xml"
+output_m3u = "nzau.m3u"
+output_xml = "nzau.xml"
 
 try:
     response = requests.get(m3u)
