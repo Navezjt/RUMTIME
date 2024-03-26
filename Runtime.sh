@@ -4,6 +4,6 @@ echo $(dirname $0)
 
 python3 -m pip install requests
 
-python3 $(dirname $0)/scripts/plex.py
+python3 $(dirname $0)/scripts/runtime.py
 
 echo Done!
